@@ -18,7 +18,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Drawing;
-
+using CoreGraphics;
+using Foundation;
 #if XAMCORE_2_0
 using UIKit;
 using CoreGraphics;
@@ -27,14 +28,11 @@ using CoreAnimation;
 
 using NSAction = global::System.Action;
 #else
-using MonoTouch.UIKit;
-using MonoTouch.CoreGraphics;
-using MonoTouch.Foundation;
-using MonoTouch.CoreAnimation;
+
 #endif
 
 using MonoTouch.Dialog.Utilities;
-
+using UIKit;
 #if !XAMCORE_2_0
 using nint = global::System.Int32;
 using nuint = global::System.UInt32;

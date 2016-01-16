@@ -3,3 +3,7 @@
 *.pidb
 
 .DS_Store
+/.vs/MonoTouch.Dialog/v14/.suo
+/MonoTouch.Dialog.suo
+/MonoTouch.Dialog/MonoTouch.Dialog.csproj.bak
+/Sample/Sample.csproj.bak

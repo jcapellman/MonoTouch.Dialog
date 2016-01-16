@@ -12,7 +12,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
-
+using CoreGraphics;
+using Foundation;
+using UIKit;
 #if XAMCORE_2_0
 using UIKit;
 using CoreGraphics;
@@ -20,9 +22,7 @@ using Foundation;
 
 using NSAction = global::System.Action;
 #else
-using MonoTouch.UIKit;
-using MonoTouch.CoreGraphics;
-using MonoTouch.Foundation;
+
 #endif
 
 #if !XAMCORE_2_0

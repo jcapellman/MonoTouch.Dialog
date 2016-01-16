@@ -1,14 +1,14 @@
 using System;
 using System.Drawing;
-
+using CoreGraphics;
+using Foundation;
+using UIKit;
 #if XAMCORE_2_0
 using UIKit;
 using Foundation;
 using CoreGraphics;
 #else
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
-using MonoTouch.CoreGraphics;
+
 #endif
 
 #if !XAMCORE_2_0

@@ -18,7 +18,8 @@ using System.IO;
 using System.Json;
 using System.Net;
 using System.Reflection;
-
+using Foundation;
+using UIKit;
 #if XAMCORE_2_0
 using Foundation;
 using UIKit;
